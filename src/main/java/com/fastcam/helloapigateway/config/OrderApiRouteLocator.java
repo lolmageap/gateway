@@ -19,8 +19,7 @@ class OrderApiRouteLocator {
                         .filters(f ->
                                 f.rewritePath(gatewayPath + "(?<servicePath>.*)", "/${servicePath}")
                         ).uri(orderBaseUrl)
-                )
-                .build();
+                ).build();
     }
     // GET http://localhost:9090/providers/order-api/v1/orders
 }
