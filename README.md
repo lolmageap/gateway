@@ -1,8 +1,4 @@
-# Hello API Gateway
-
-# 사전 준비 사항
-- API Gateway 배경 지식
-- Hello Order API 샘플 프로젝트
+# API Gateway
 
 # 참고사항
 ```mermaid
